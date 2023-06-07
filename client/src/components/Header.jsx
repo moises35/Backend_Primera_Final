@@ -49,6 +49,9 @@ const Header = () => {
                 <li>
                     <NavLinkStyled to="/categoria">Categorias</NavLinkStyled>
                 </li>
+                <li>
+                    <NavLinkStyled to="/producto">Productos</NavLinkStyled>
+                </li>
             </ul>
         </Nav>
     );
