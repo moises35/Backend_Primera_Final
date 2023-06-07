@@ -4,7 +4,7 @@
     <img src="https://cdn-icons-png.flaticon.com/512/1803/1803974.png" alt="Logo" width="120" height="120">
   </a>
 
-  <h3 align="center">Backend - Segunda Parcial</h3>
+  <h3 align="center">Backend - Primera Final</h3>
 </div>
 
 
