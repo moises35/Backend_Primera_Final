@@ -17,6 +17,7 @@ app.use('/api/restaurante', require('./routes/restaurante.routes'));
 app.use('/api/mesa', require('./routes/mesa.routes'));
 app.use('/api/cliente', require('./routes/cliente.routes'));
 app.use('/api/reserva', require('./routes/reserva.routes'));
+app.use('/api/categoria', require('./routes/categoria.routes'));
 
 
 // Database connection and server start
