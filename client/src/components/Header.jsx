@@ -46,6 +46,9 @@ const Header = () => {
                 <li>
                     <NavLinkStyled to="/listReserva">Lista de Reservas</NavLinkStyled>
                 </li>
+                <li>
+                    <NavLinkStyled to="/categoria">Categorias</NavLinkStyled>
+                </li>
             </ul>
         </Nav>
     );
