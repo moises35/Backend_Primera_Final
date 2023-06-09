@@ -19,7 +19,8 @@ app.use('/api/cliente', require('./routes/cliente.routes'));
 app.use('/api/reserva', require('./routes/reserva.routes'));
 app.use('/api/categoria', require('./routes/categoria.routes'));
 app.use('/api/producto', require('./routes/producto.routes'));
-
+app.use('/api/consumicion', require('./routes/consumicion.routes'));
+app.use('/api/consumicionDetalle', require('./routes/consumicionDetalle.routes'));
 
 // Database connection and server start
 sequelize.authenticate()
