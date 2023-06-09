@@ -30,8 +30,9 @@ const Consumicion = sequelize.define('Consumicion', {
     },
     createdAt: {
         field: 'created_at',
-        type: DataTypes.DATE,
+        type: DataTypes.DATE, 
         allowNull: false,
+        defaultValue: sequelize.literal('CURRENT_TIMESTAMP')
     },
     closedAt: {
         field: 'closed_at',

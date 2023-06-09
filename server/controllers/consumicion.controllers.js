@@ -61,7 +61,7 @@ const createConsumicion = (req, res) => {
             res.status(201).json(consumicion);
         })
         .catch((error) => {
-            res.status(500).json({ error: 'Error al crear la consumición' });
+            res.status(500).json({ error: `Error al crear la consumición: ${error}` });
         });
 };
 
